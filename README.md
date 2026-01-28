@@ -1,4 +1,5 @@
-<img src="assets/rameez.jpg" alt="Rameez Shafat Wani" width="160" style="border-radius:50%;" />
+<img src="/assets/rammez.jpg" width="160" style="border-radius:50%;" />
+
 
 # Rameez Shafat Wani
 

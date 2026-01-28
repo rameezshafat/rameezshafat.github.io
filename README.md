@@ -1,13 +1,14 @@
-<img src="/assets/rammez.jpg" width="160" style="border-radius:50%;" />
+<div style="text-align: left;">
 
+<img src="/assets/rammez.jpg" width="160" style="border-radius:50%;" />
 
 # Rameez Shafat Wani
 
-**MSc Artificial Intelligence @ Dublin City University (2025–2026)**
-Dublin, Ireland
+**MSc Artificial Intelligence @ Dublin City University (2025–2026)**  
+Dublin, Ireland  
 [GitHub](#) · [LinkedIn](#) · [rameezshafatwani@gmail.com](mailto:rameezshafatwani@gmail.com)
 
----
+</div>
 
 ## About
 

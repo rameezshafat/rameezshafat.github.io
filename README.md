@@ -1,3 +1,5 @@
+<img src="assets/rameez.jpg" alt="Rameez Shafat Wani" width="160" style="border-radius:50%;" />
+
 # Rameez Shafat Wani
 
 **MSc Artificial Intelligence @ Dublin City University (2025–2026)**

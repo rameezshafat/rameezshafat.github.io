@@ -1,6 +1,4 @@
-<div style="text-align: left;">
 
-<img src="assets/rammez.jpg" width="160" style="border-radius:50%;" />
 
 
 # Rameez Shafat Wani
@@ -9,7 +7,7 @@
 Dublin, Ireland  
 [GitHub](#) · [LinkedIn](#) · [rameezshafatwani@gmail.com](mailto:rameezshafatwani@gmail.com)
 
-</div>
+=
 
 ## About
 

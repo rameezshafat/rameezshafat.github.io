@@ -1,13 +1,10 @@
-
-
-
 # Rameez Shafat Wani
 
-**MSc Artificial Intelligence @ Dublin City University (2025–2026)**  
-Dublin, Ireland  
+**MSc Artificial Intelligence @ Dublin City University (2025–2026)**
+Dublin, Ireland
 [GitHub](#) · [LinkedIn](#) · [rameezshafatwani@gmail.com](mailto:rameezshafatwani@gmail.com)
 
-=
+---
 
 ## About
 

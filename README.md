@@ -1,6 +1,7 @@
 <div style="text-align: left;">
 
-<img src="/assets/rammez.jpg" width="160" style="border-radius:50%;" />
+<img src="assets/rammez.jpg" width="160" style="border-radius:50%;" />
+
 
 # Rameez Shafat Wani
 

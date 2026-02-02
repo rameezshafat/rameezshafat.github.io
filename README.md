@@ -1,4 +1,4 @@
-# Rameez Shafat Wani
+
 
 **MSc Artificial Intelligence @ Dublin City University (2025–2026)**
 Dublin, Ireland

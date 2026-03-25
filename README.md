@@ -33,7 +33,7 @@ Particularly interested in **reliability, performance, and intelligent systems o
 
 ### Retrieval, NLP & Applied AI Systems
 
-**Hybrid Semantic–Lexical RAG for Legal Documents**  
+**Hybrid Semantic–Lexical RAG for Legal Documents (Ongoing DCU)**  
 *Python · NLP · Dense + Sparse Retrieval · Research-grade IR*
 
 * Designed a hybrid retrieval pipeline combining **semantic embeddings with lexical matching** to improve recall and grounding in legal systems  

@@ -1,26 +1,31 @@
-
-
-**MSc Artificial Intelligence @ Dublin City University (2025–2026)**
-Dublin, Ireland
+**MSc Artificial Intelligence @ Dublin City University (2025–2026)**  
+Dublin, Ireland  
 [GitHub](#) · [LinkedIn](#) · [rameezshafatwani@gmail.com](mailto:rameezshafatwani@gmail.com)
 
 ---
 
 ## About
 
-AI postgraduate focused on **machine learning, NLP, and retrieval-augmented generation (RAG)**.
-Published IEEE researcher with hands-on experience building **research-grounded, production-aware AI systems** spanning data engineering, machine learning, deep learning, and modern retrieval architectures.
+AI postgraduate focused on **machine learning, NLP, and retrieval-augmented generation (RAG)**, with a strong foundation in **computer systems design and engineering**.
 
-My work emphasizes **theory-backed design, empirical evaluation, and real-world applicability**, particularly in structured and high-stakes domains such as legal and medical data.
+Published IEEE researcher with hands-on experience building **research-grounded, production-aware AI systems** across the full stack — from **data pipelines and model architectures to system integration in distributed environments**.
+
+My work emphasizes **end-to-end system thinking**, combining:
+- **Low-level systems understanding** (CPU, memory, I/O, OS internals)
+- **Scalable distributed system design** (networking, services, cloud)
+- **AI-driven application layers**
+
+Particularly interested in **reliability, performance, and intelligent systems operating in real-world production environments**.
 
 ---
 
 ## Core Focus Areas
 
-* Machine Learning & Statistical Modeling
-* Deep Learning & Computer Vision
-* NLP, Information Retrieval & RAG
-* Data Engineering & Analytics Systems
+* Machine Learning & Statistical Modeling  
+* Deep Learning & Computer Vision  
+* NLP, Information Retrieval & RAG  
+* Distributed Systems & Cloud Infrastructure  
+* Systems Design, Performance & Reliability Engineering  
 
 ---
 
@@ -28,100 +33,141 @@ My work emphasizes **theory-backed design, empirical evaluation, and real-world 
 
 ### Retrieval, NLP & Applied AI Systems
 
-**Hybrid Semantic–Lexical RAG for Legal Documents**
+**Hybrid Semantic–Lexical RAG for Legal Documents**  
 *Python · NLP · Dense + Sparse Retrieval · Research-grade IR*
 
-* Designed a hybrid retrieval pipeline combining **semantic embeddings with lexical matching** to improve recall and factual grounding in legal RAG systems
-* Motivated by empirical evidence that dense-only retrieval underperforms on **formulaic legal text**
-* Focused on explainability, grounding, and real-world regulatory use cases (Irish/EU legal domain)
+* Designed a hybrid retrieval pipeline combining **semantic embeddings with lexical matching** to improve recall and grounding in legal systems  
+* Motivated by limitations of dense retrieval in **structured, formulaic domains**  
+* Built with focus on **explainability, retrieval quality, and system-level integration**
 
-**RAG System for Technical Documentation (GitMagic Guide)**
+---
+
+**RAG System for Technical Documentation (GitMagic Guide)**  
 *Python · LLMs · Retrieval Pipelines*
 
-* Built a RAG pipeline over structured technical documentation enabling contextual question answering
-* Implemented document chunking, embedding, and retrieval orchestration
-* Emphasized practical deployment patterns over toy examples
+* Built an end-to-end RAG system with **document processing, embedding pipelines, and retrieval orchestration**  
+* Designed with **modular architecture and abstraction layers** for scalability and maintainability  
+* Emphasized **real-world deployment patterns over toy implementations**
 
-**AI Sentiment Analysis Accuracy Comparator**
-*LLM APIs · Evaluation · Frontend + Backend*
+---
 
-* Built an interactive system to compare sentiment accuracy across multiple LLM APIs
-* Supports demo mode, live API testing, dataset upload, and controlled evaluation
-* Focused on benchmarking, reproducibility, and API reliability
+**LLM-Powered SRE Incident Triage Console (Ongoing)**  
+*LLMs · FastAPI · Distributed Systems · Observability*
+
+* Building an intelligent triage system that correlates **logs, metrics, deployment signals, and incident history**  
+* Applies **agentic reasoning with iterative retrieval and reflection** for root-cause analysis  
+* Designed with **systems-first principles**:
+  - Observability across distributed components  
+  - Multi-signal correlation pipelines  
+  - Structured incident reporting  
+* Achieved **~40% reduction in investigation effort** in early evaluations  
+
+---
+
+**AI Sentiment Analysis Accuracy Comparator**  
+*LLM APIs · Evaluation · Full-stack System*
+
+* Built an interactive evaluation platform comparing multiple LLM APIs  
+* Supports **dataset-driven benchmarking, live testing, and reproducibility workflows**  
+* Focused on **evaluation rigor and system reliability**
 
 ---
 
 ### Machine Learning & Statistical Modeling
 
-**Loan Default Prediction (Ensemble ML)**
+**Loan Default Prediction (Ensemble ML)**  
 *Scikit-learn · Imbalanced Learning*
 
-* Achieved **0.93 AUC-ROC** using tuned Random Forest models
-* Improved minority-class performance via threshold optimization and metric-driven evaluation
-* Emphasized validation beyond accuracy for decision-oriented modeling
+* Achieved **0.93 AUC-ROC** using optimized Random Forest models  
+* Improved minority-class detection via **threshold tuning and metric-driven evaluation**  
+* Demonstrated **decision-focused modeling beyond accuracy**
 
-**Earthquake Clustering Using DBSCAN**
-*Unsupervised Learning · Geospatial Analysis*
+---
 
-* Applied density-based clustering to seismic event data
-* Handled noise, spatial distance metrics, and parameter sensitivity
-* Demonstrated real-world use of unsupervised learning on noisy datasets
+**Earthquake Clustering Using DBSCAN**  
+*Unsupervised Learning · Geospatial Systems*
+
+* Applied density-based clustering on noisy geospatial data  
+* Addressed **distance metrics, noise handling, and parameter sensitivity**  
+* Showcased real-world unsupervised learning applications  
 
 ---
 
 ### Deep Learning & Computer Vision
 
-**FashionMNIST CNN**
-*PyTorch · End-to-End Deep Learning*
+**FashionMNIST CNN**  
+*PyTorch · Deep Learning Systems*
 
-* Built and trained a full CNN pipeline achieving **89.5% test accuracy**
-* Implemented data loading, training loops, and evaluation workflows
-* Demonstrated strong fundamentals in deep learning systems
+* Built and trained a CNN pipeline achieving **89.5% accuracy**  
+* Implemented **data pipelines, training loops, and evaluation workflows**  
 
-**Hybrid CNN–Vision Transformer for Diabetic Retinopathy Detection**
+---
+
+**Hybrid CNN–Vision Transformer for Diabetic Retinopathy Detection**  
 *IEEE Xplore · 2025*
 
-* Published peer-reviewed research combining CNN feature extraction with Transformer-based global context modeling
-* Addressed robustness challenges in medical image classification
-* Demonstrated research-level rigor and hybrid architectural design
+* Published research combining **CNN feature extraction with Transformer-based global context modeling**  
+* Addressed **robustness and generalization challenges in medical imaging**  
+* Demonstrated **research-level system design and experimentation**
 
 ---
 
 ### Systems, Data Engineering & Foundations
 
-**SQL Data Warehouse (Nineleaps Technology Solutions – Internship)**
+**SQL Data Warehouse (Nineleaps Technology Solutions – Internship)**  
 *SQL · ETL · Analytics Engineering*
 
-* Designed a three-layer **Medallion Architecture** integrating CRM and ERP data sources
-* Built SQL-based ETL pipelines and stored procedures to generate analytics-ready tables
-* Reduced manual analysis effort by **~30%** through scalable reporting design
+* Designed a **Medallion Architecture (Bronze–Silver–Gold layers)** integrating CRM and ERP systems  
+* Built ETL pipelines and optimized queries for **analytics-ready data**  
+* Reduced manual analysis effort by **~30% through scalable data system design**
 
-**Multi-Client Chat Server**
+---
+
+**Multi-Client Chat Server**  
 *C · Networking · Systems Programming*
 
-* Implemented a socket-based multi-client chat server in C
-* Demonstrated understanding of low-level networking, concurrency, and systems design
+* Implemented a socket-based chat server using **TCP/IP protocols**  
+* Demonstrated understanding of:
+  - **Processes, threads, and concurrency**
+  - **Socket programming and communication protocols**
+  - **Low-level systems interaction (I/O, memory handling)**  
+
+---
+
+## Systems Engineering Perspective
+
+Strong foundation in **Design and Engineering of Computer Systems (IIT Bombay, NPTEL)**, with a bottom-up understanding of:
+
+* **Computer Architecture:** CPU, memory hierarchy, I/O systems  
+* **Operating Systems:** processes, threads, scheduling, memory management  
+* **Networking:** sockets, protocols, distributed communication  
+* **System Design Principles:** abstraction, modularity, layering  
+* **Performance Engineering:** caching, profiling, scalability  
+* **Reliability:** fault tolerance, replication, consistency models  
+* **Distributed Systems:** multi-tier architectures, service-oriented design  
+* **Cloud & Virtualization Concepts**
 
 ---
 
 ## Research
 
-**Hybrid CNN and Vision Transformer Model for Diabetic Retinopathy Detection**
+**Hybrid CNN and Vision Transformer Model for Diabetic Retinopathy Detection**  
 *IEEE Xplore, 2025*
 
 ---
 
 ## Skills
 
-* **Languages:** Python, SQL, C, JavaScript
-* **ML / AI:** Classification, Ensemble Methods, Deep Learning, Transformers, RAG
-* **Libraries & Tools:** PyTorch, Scikit-learn, Pandas, NumPy, Git
-* **Data Engineering:** ETL, Feature Engineering, SQL Optimization, Analytics Pipelines
+* **Languages:** Python, SQL, C, JavaScript  
+* **ML / AI:** Classification, Ensemble Methods, Deep Learning, Transformers, RAG  
+* **Systems:** OS Fundamentals, Networking, Distributed Systems, System Design  
+* **Libraries & Tools:** PyTorch, Scikit-learn, Pandas, NumPy, Git, FastAPI  
+* **Data Engineering:** ETL, Feature Engineering, SQL Optimization, Analytics Pipelines  
 
 ---
 
 ## Currently
 
-* MSc Artificial Intelligence student at **Dublin City University**
-* Actively building **research-grade ML, NLP, and RAG systems**
-* Open to **data, ML, and AI roles** (part-time and graduate)
+* MSc Artificial Intelligence student at **Dublin City University**  
+* Building **AI systems grounded in real-world systems design and distributed environments**  
+* Open to **data, ML, AI, and systems-oriented roles** (part-time and graduate)

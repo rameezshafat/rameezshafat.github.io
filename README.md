@@ -136,7 +136,7 @@ Particularly interested in **reliability, performance, and intelligent systems o
 
 ## Systems Engineering Perspective
 
-Strong foundation in **Design and Engineering of Computer Systems (IIT Bombay, NPTEL)**, with a bottom-up understanding of:
+Strong foundation in **Design and Engineering of Computer Systems**, with a bottom-up understanding of:
 
 * **Computer Architecture:** CPU, memory hierarchy, I/O systems  
 * **Operating Systems:** processes, threads, scheduling, memory management  

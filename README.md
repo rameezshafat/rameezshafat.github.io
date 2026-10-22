@@ -1,173 +1,147 @@
-**MSc Artificial Intelligence @ Dublin City University (2025–2026)**  
+**MSc Artificial Intelligence, First Class (1:1) · Dublin City University**  
 Dublin, Ireland  
-[GitHub](#) · [LinkedIn](#) · [rameezshafatwani@gmail.com](mailto:rameezshafatwani@gmail.com)
+[GitHub](https://github.com/rameezshafat) · [LinkedIn](https://www.linkedin.com/in/rameezshafat) · [rameezshafatwani@gmail.com](mailto:rameezshafatwani@gmail.com)
 
 ---
 
 ## About
 
-AI postgraduate focused on **machine learning, NLP, and retrieval-augmented generation (RAG)**, with a strong foundation in **computer systems design and engineering**.
+I build AI and data systems, and I care most about the part that decides whether you can trust them: how they are evaluated, what they are allowed to do, and where their numbers come from.
 
-Published IEEE researcher with hands-on experience building **research-grounded, production-aware AI systems** across the full stack — from **data pipelines and model architectures to system integration in distributed environments**.
+I hold a First Class MSc in Artificial Intelligence from DCU. My thesis on retrieval for EU climate law was presented at AICS 2026, and its main lesson was that a benchmark can flatter a system when the test queries reuse the wording of the documents. Before the MSc I worked as a Data Analyst at Nineleaps, where I built a validated PostgreSQL warehouse over six operational sources.
 
-My work emphasizes **end-to-end system thinking**, combining:
-- **Low-level systems understanding** (CPU, memory, I/O, OS internals)
-- **Scalable distributed system design** (networking, services, cloud)
-- **AI-driven application layers**
-
-Particularly interested in **reliability, performance, and intelligent systems operating in real-world production environments**.
+My background is in computer systems (operating systems, networking, system design), so I tend to think about the whole path from data to model to the service that acts on it.
 
 ---
 
-## Core Focus Areas
+## Experience
 
-* Machine Learning & Statistical Modeling  
-* Deep Learning & Computer Vision  
-* NLP, Information Retrieval & RAG  
-* Distributed Systems & Cloud Infrastructure  
-* Systems Design, Performance & Reliability Engineering  
+**Mathematics Tutor** · Dublin City University · *Sep 2026 – Present*
+
+* Teach calculus, multivariable optimisation and mathematical modelling to NFQ Level 8 cohorts across STEM, Economics and Business (MTH1033, MTH1027, MTH1029).
+
+**Data Analyst** · Nineleaps Technology Solutions, Bangalore · *Mar 2025 – Jul 2025*
+
+* Owned two Python automation systems end to end across six relational databases, cutting manual workflow overhead by **30%**.
+* Built data-quality checks into each layer of a PostgreSQL warehouse, so integrity failures were caught before they reached reports.
+
+---
+
+## Publications
+
+**Sparse, Dense, and Hybrid Retrieval for EU Climate Statutes: A Leakage-Controlled Evaluation**  
+*AICS 2026 (Irish Conference on AI and Cognitive Science), UCD, Dublin · presented 16 Oct 2026 · first author*
+
+**Hybrid CNN and Vision Transformer Model for Diabetic Retinopathy Detection**  
+*IEEE ICBMESH 2025* · [DOI: 10.1109/ICBMESH66209.2025.11182184](https://doi.org/10.1109/ICBMESH66209.2025.11182184)
 
 ---
 
 ## Projects
 
-### Retrieval, NLP & Applied AI Systems
+### Retrieval, NLP & Agents
 
-**Hybrid Semantic–Lexical RAG for Legal Documents (Ongoing DCU)**  
-*Python · NLP · Dense + Sparse Retrieval · Research-grade IR*
+**Sparse, Dense, and Hybrid Retrieval for EU Climate Statutes** · *DCU MSc Thesis, AICS 2026* · [code](https://github.com/rameezshafat/eu-lexical-semantic-legal-rag)  
+*Python · BM25 · nomic-embed-text · FAISS · Reciprocal Rank Fusion*
 
-* Designed a hybrid retrieval pipeline combining **semantic embeddings with lexical matching** to improve recall and grounding in legal systems  
-* Motivated by limitations of dense retrieval in **structured, formulaic domains**  
-* Built with focus on **explainability, retrieval quality, and system-level integration**
+* Benchmarks that reuse statute wording in their queries make keyword search look better than it is.
+* Compared BM25, dense and hybrid retrieval over 1,156 provisions from 72 EU instruments; dense led at **92.5%** top-5.
+* Built a leakage-controlled 102-query benchmark; rewording queries moved BM25's MRR by **0.29** against dense's **0.09**.
 
----
+**Dayli: Voice-First Calendar Agent with Policy-Gated Writes** · *2026* · [code](https://github.com/rameezshafat/dayli)  
+*Python · Llama 3.2 · Whisper · Kokoro · Google Calendar API*
+
+* Agents that write to real APIs can double-book or delete events when nothing checks an action first.
+* Built a voice-first calendar agent (local Llama 3.2, Whisper, Kokoro) that writes only approved proposals.
+* Gated every write with TOML policy-as-code and retry-safe IDs; **124 tests** and **89%** intent accuracy.
+
+**Incident Root-Cause Analysis Agent**  
+*Python · Agentic retrieval · Evaluation*
+
+* On-call engineers lose time stepping through logs, metrics and deploy history before they find a root cause.
+* Built an iterative investigation agent that, on 360 synthetic incidents, raised root-cause accuracy from **19.7%** to **66.1%**.
+* Cut average investigation steps from 6.0 to **3.3** using planned retrieval, confidence gating and escalation when evidence runs out.
 
 **RAG System for Technical Documentation (GitMagic Guide)**  
-*Python · LLMs · Retrieval Pipelines*
+*Python · LLMs · Retrieval pipelines*
 
-* Built an end-to-end RAG system with **document processing, embedding pipelines, and retrieval orchestration**  
-* Designed with **modular architecture and abstraction layers** for scalability and maintainability  
-* Emphasized **real-world deployment patterns over toy implementations**
-
----
-
-**LLM-Powered SRE Incident Triage Console (Ongoing)**  
-*LLMs · FastAPI · Distributed Systems · Observability*
-
-* Building an intelligent triage system that correlates **logs, metrics, deployment signals, and incident history**  
-* Applies **agentic reasoning with iterative retrieval and reflection** for root-cause analysis  
-* Designed with **systems-first principles**:
-  - Observability across distributed components  
-  - Multi-signal correlation pipelines  
-  - Structured incident reporting  
-* Achieved **~40% reduction in investigation effort** in early evaluations  
-
----
+* Built an end-to-end RAG pipeline covering document processing, embeddings and retrieval orchestration, split into modules so each stage can be swapped.
 
 **AI Sentiment Analysis Accuracy Comparator**  
-*LLM APIs · Evaluation · Full-stack System*
+*LLM APIs · Evaluation*
 
-* Built an interactive evaluation platform comparing multiple LLM APIs  
-* Supports **dataset-driven benchmarking, live testing, and reproducibility workflows**  
-* Focused on **evaluation rigor and system reliability**
+* Built an evaluation tool that compares several LLM APIs on the same labelled datasets, with live testing and repeatable runs.
 
----
+### Data Engineering
 
-### Machine Learning & Statistical Modeling
+**SQL Data Warehouse Platform** · *Nineleaps, 2025* · [code](https://github.com/rameezshafat/postgres-medallion-data-warehouse)  
+*PostgreSQL · SQL · ETL · Medallion architecture*
 
-**Loan Default Prediction (Ensemble ML)**  
-*Scikit-learn · Imbalanced Learning*
+* Six operational sources reported different numbers for the same thing, so every report needed a manual re-check.
+* Built a validated PostgreSQL warehouse on medallion architecture, cutting manual data preparation effort by **35%**.
+* Applied cleaning, matching, integrity constraints and quality checks at each layer, so every figure traces to its source.
 
-* Achieved **0.93 AUC-ROC** using optimized Random Forest models  
-* Improved minority-class detection via **threshold tuning and metric-driven evaluation**  
-* Demonstrated **decision-focused modeling beyond accuracy**
+**Bike Sales Data Lakehouse** · *Databricks* · [code](https://github.com/rameezshafat/databricks-medallion-lakehouse)  
+*PySpark · Spark SQL · Delta Lake · Unity Catalog*
 
----
+* CRM and ERP exports used mismatched customer IDs, coded values and integer dates, so they could not be joined directly.
+* Built a 15-table bronze/silver/gold Delta lakehouse turning ~60K sales lines and ~18.5K customers into a star schema.
+* Found and fixed a join bug that inflated `fact_sales` by **49%**, and added 7 quality checks that fail the run on bad data.
 
-**Earthquake Clustering Using DBSCAN**  
-*Unsupervised Learning · Geospatial Systems*
+### Machine Learning & Computer Vision
 
-* Applied density-based clustering on noisy geospatial data  
-* Addressed **distance metrics, noise handling, and parameter sensitivity**  
-* Showcased real-world unsupervised learning applications  
+**Identity-Aware Fraud Detection** · *DCU MSc Coursework* · [code](https://github.com/rameezshafat/ieee-cis-fraud-feature-engineering)  
+*Python · LightGBM · XGBoost · CatBoost · Feature engineering*
 
----
+* Transactions carry no reliable cardholder ID, so identity has to be inferred before any pattern shows up.
+* Built a leakage-safe pipeline over **590K+** transactions around a composite UID, reaching **0.947 ROC-AUC**.
 
-### Deep Learning & Computer Vision
+**Hybrid CNN–Vision Transformer for Diabetic Retinopathy Detection** · *IEEE ICBMESH 2025*  
+*PyTorch · EfficientNet-B0 · Swin Transformer*
+
+* Combined EfficientNet-B0 features with a Swin Transformer for retinopathy severity grading, reaching **85.5%** accuracy on APTOS 2019.
+
+**Loan Default Prediction**  
+*Scikit-learn · Imbalanced learning*
+
+* Reached **0.93 AUC-ROC** with a tuned Random Forest, then moved the decision threshold to catch more of the minority (default) class.
+
+**Earthquake Clustering with DBSCAN** · [code](https://github.com/rameezshafat/earthquake-clustering-using-dbscan)  
+*Scikit-learn · GeoPandas · Folium*
+
+* Clustered **75,810** USGS earthquake events by location with DBSCAN and mapped the clusters interactively with Folium.
 
 **FashionMNIST CNN**  
-*PyTorch · Deep Learning Systems*
+*PyTorch*
 
-* Built and trained a CNN pipeline achieving **89.5% accuracy**  
-* Implemented **data pipelines, training loops, and evaluation workflows**  
+* Built the data pipeline, training loop and evaluation for a CNN classifier reaching **89.5%** accuracy.
 
----
-
-**Hybrid CNN–Vision Transformer for Diabetic Retinopathy Detection**  
-*IEEE Xplore · 2025*
-
-* Published research combining **CNN feature extraction with Transformer-based global context modeling**  
-* Addressed **robustness and generalization challenges in medical imaging**  
-* Demonstrated **research-level system design and experimentation**
-
----
-
-### Systems, Data Engineering & Foundations
-
-**SQL Data Warehouse (Nineleaps Technology Solutions – Internship)**  
-*SQL · ETL · Analytics Engineering*
-
-* Designed a **Medallion Architecture (Bronze–Silver–Gold layers)** integrating CRM and ERP systems  
-* Built ETL pipelines and optimized queries for **analytics-ready data**  
-* Reduced manual analysis effort by **~30% through scalable data system design**
-
----
+### Systems & 3D
 
 **Multi-Client Chat Server**  
-*C · Networking · Systems Programming*
+*C · TCP/IP sockets · Concurrency*
 
-* Implemented a socket-based chat server using **TCP/IP protocols**  
-* Demonstrated understanding of:
-  - **Processes, threads, and concurrency**
-  - **Socket programming and communication protocols**
-  - **Low-level systems interaction (I/O, memory handling)**  
+* Wrote a socket-based chat server in C that handles multiple clients concurrently over TCP.
 
----
+**Dublin Retrofit 3D Prototype (Unity)** · [code](https://github.com/rameezshafat/dublin-retrofit-xr)  
+*Unity 6 · C# · OpenStreetMap*
 
-## Systems Engineering Perspective
-
-Strong foundation in **Design and Engineering of Computer Systems**, with a bottom-up understanding of:
-
-* **Computer Architecture:** CPU, memory hierarchy, I/O systems  
-* **Operating Systems:** processes, threads, scheduling, memory management  
-* **Networking:** sockets, protocols, distributed communication  
-* **System Design Principles:** abstraction, modularity, layering  
-* **Performance Engineering:** caching, profiling, scalability  
-* **Reliability:** fault tolerance, replication, consistency models  
-* **Distributed Systems:** multi-tier architectures, service-oriented design  
-* **Cloud & Virtualization Concepts**
-
----
-
-## Research
-
-**Hybrid CNN and Vision Transformer Model for Diabetic Retinopathy Detection**  
-*IEEE Xplore, 2025*
+* Extruded **690** OpenStreetMap building footprints in Glasnevin into 3D, with click-to-inspect energy ratings (sample data) and 8 passing tests.
 
 ---
 
 ## Skills
 
-* **Languages:** Python, SQL, C, JavaScript  
-* **ML / AI:** Classification, Ensemble Methods, Deep Learning, Transformers, RAG  
-* **Systems:** OS Fundamentals, Networking, Distributed Systems, System Design  
-* **Libraries & Tools:** PyTorch, Scikit-learn, Pandas, NumPy, Git, FastAPI  
-* **Data Engineering:** ETL, Feature Engineering, SQL Optimization, Analytics Pipelines  
+* **Languages:** Python, SQL, C, C#, JavaScript
+* **ML / AI:** Classification, ensembles, deep learning, transformers, information retrieval, RAG, LLM agents, evaluation design
+* **Data Engineering:** PostgreSQL, ETL, medallion architecture, Databricks, PySpark, Delta Lake, data-quality checks
+* **Libraries & Tools:** PyTorch, scikit-learn, pandas, NumPy, FAISS, FastAPI, Git, Docker, Linux
+* **Systems:** Operating systems, computer networks, socket programming, system design
 
 ---
 
 ## Currently
 
-* MSc Artificial Intelligence student at **Dublin City University**  
-* Building **AI systems grounded in real-world systems design and distributed environments**  
-* Open to **data, ML, AI, and systems-oriented roles** (part-time and graduate)
+* Graduated from DCU with a First Class (1:1) MSc in Artificial Intelligence (20 Oct 2026)
+* Teaching mathematics at DCU
+* Open to **data, ML, AI and systems-oriented roles**, and to research positions

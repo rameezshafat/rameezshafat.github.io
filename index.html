@@ -23,7 +23,7 @@
     <div class="container header-inner">
       <a class="wordmark" href="#top" aria-label="Rameez Shafat Wani, home">Rameez Shafat <span>Wani</span><span class="wordmark-dot">.</span></a>
       <nav class="nav" id="primary-nav" aria-label="Main navigation">
-        <a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#about">About</a>
+        <a href="#projects">Projects</a><a href="#now">Now</a><a href="#experience">Experience</a><a href="#research">Research</a>
         <a class="nav-contact" href="#contact">Contact <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a>
       </nav>
       <div class="header-actions">
@@ -45,7 +45,7 @@
     </section>
 
     <section class="section section-bordered" id="projects" aria-labelledby="projects-title"><div class="container">
-      <div class="section-header"><div><p class="section-label">01 / PROJECTS</p><h2 id="projects-title">Selected work</h2></div><a class="inline-link section-link" href="https://github.com/rameezshafat?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div>
+      <div class="section-header"><div><p class="section-label">01 / PROJECTS</p><h2 id="projects-title">Projects &amp; results</h2></div><a class="inline-link section-link" href="https://github.com/rameezshafat?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div>
       <div class="project-grid">
         <article class="project project-featured"><div class="project-top"><span class="project-icon"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#search"/></svg></span><span>RETRIEVAL · RESEARCH · EVALUATION</span></div><div class="featured-body"><div><h3>When a search benchmark leaks the answer</h3><p>For EU climate law, I compared sparse, dense, and hybrid search over 1,156 provisions. Rephrasing the same 71 questions in plain language exposed how much statute-like wording had inflated keyword retrieval.</p><a class="inline-link" href="https://github.com/rameezshafat/eu-lexical-semantic-legal-rag#main-results" target="_blank" rel="noopener noreferrer">Read the results <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div><div class="evidence"><p><strong>0.846 → 0.556</strong><span>BM25 MRR@5 after leakage control</span></p><p><strong>92.5%</strong><span>Dense hit rate at 5 on a sealed 53-query test set</span></p><p class="evidence-note">Code and benchmark data are not publicly released; the research summary documents the results and limitations.</p></div></div></article>
         <article class="project"><div class="project-top"><span class="project-icon"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#video"/></svg></span><span>MULTIMODAL RETRIEVAL</span></div><h3>Search across video and speech</h3><p>Indexed 409,218 video keyframes with CLIP and paired them with transcript search. Compared visual, lexical, and time-aware fusion on the CASTLE dataset.</p><p class="project-result"><strong>&lt;200 ms</strong> exact vector query on a laptop; fusion weights remain manually chosen</p><a class="inline-link" href="https://github.com/rameezshafat/castle-multimodal-video-retrieval#what-is-kept-in-this-repository" target="_blank" rel="noopener noreferrer">Code, report, and results <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></article>
@@ -54,8 +54,13 @@
       <div class="more-work"><h3>More work</h3><a href="https://github.com/rameezshafat/ieee-cis-fraud-feature-engineering/blob/main/notebooks/fraud_detection_pipeline.ipynb" target="_blank" rel="noopener noreferrer"><span>Fraud detection</span><span class="more-detail">Time-ordered validation on IEEE-CIS transactions</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a><a href="https://github.com/rameezshafat/postgres-medallion-data-warehouse#architecture" target="_blank" rel="noopener noreferrer"><span>PostgreSQL warehouse</span><span class="more-detail">Six CRM and ERP source tables</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div>
     </div></section>
 
+    <section class="section now-section" id="now" aria-labelledby="now-title"><div class="container now-grid">
+      <div><p class="section-label">02 / CURRENTLY WORKING ON</p><h2 id="now-title">Citation faithfulness in legal RAG</h2></div>
+      <div class="now-detail"><p class="now-status"><span class="status-dot" aria-hidden="true"></span> RESEARCH DESIGN</p><p>I’m designing an evaluation of whether a legal AI answer actually relies on the statutes it cites. The next experiment will compare statute-like and plain-language questions, then inspect whether each citation supports the answer and reflects the evidence used.</p><a class="inline-link" href="https://github.com/rameezshafat/eu-lexical-semantic-legal-rag#what-comes-next" target="_blank" rel="noopener noreferrer">Read the research direction <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div>
+    </div></section>
+
     <section class="section" id="experience" aria-labelledby="experience-title"><div class="container split-section">
-      <div class="split-heading"><p class="section-label">02 / EXPERIENCE</p><h2 id="experience-title">Experience</h2></div>
+      <div class="split-heading"><p class="section-label">03 / EXPERIENCE</p><h2 id="experience-title">Experience</h2></div>
       <div class="entry-list">
         <article class="entry"><div class="entry-date">2026 — PRESENT</div><div><h3>Mathematics Tutor</h3><p class="entry-place">Dublin City University · Dublin</p><p>Teach calculus, optimisation, and mathematical modelling to first-year students.</p></div></article>
         <article class="entry"><div class="entry-date">MAR — JUL 2025</div><div><h3>Data Analyst</h3><p class="entry-place">Nineleaps Technology Solutions · Bangalore</p><p>Owned Python automation and warehouse quality checks across six databases, reducing manual workflow overhead by 30%.</p></div></article>
@@ -64,7 +69,7 @@
     </div></section>
 
     <section class="section section-bordered" id="research" aria-labelledby="research-title"><div class="container split-section">
-      <div class="split-heading"><p class="section-label">03 / RESEARCH</p><h2 id="research-title">Research</h2></div>
+      <div class="split-heading"><p class="section-label">04 / RESEARCH</p><h2 id="research-title">Research</h2></div>
       <div class="entry-list research-list">
         <article class="entry"><div class="entry-date">AICS 2026</div><div><h3>Sparse, Dense, and Hybrid Retrieval for EU Climate Statutes</h3><p class="entry-place">First author · Presented at UCD, Dublin</p><p>A leakage-controlled evaluation of search over EU climate provisions.</p><a class="inline-link" href="https://github.com/rameezshafat/eu-lexical-semantic-legal-rag#main-results" target="_blank" rel="noopener noreferrer">Research summary <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div></article>
         <article class="entry"><div class="entry-date">IEEE 2025</div><div><h3>Hybrid CNN and Vision Transformer for Diabetic Retinopathy Detection</h3><p class="entry-place">ICBMESH 2025 · Peer-reviewed publication</p><p>Combined EfficientNet-B0 and Swin Transformer features for retinal image grading.</p><a class="inline-link" href="https://doi.org/10.1109/ICBMESH66209.2025.11182184" target="_blank" rel="noopener noreferrer">Read paper <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div></article>
@@ -72,11 +77,11 @@
     </div></section>
 
     <section class="section" id="about" aria-labelledby="about-title"><div class="container split-section">
-      <div class="split-heading"><p class="section-label">04 / ABOUT</p><h2 id="about-title">How I work</h2></div>
+      <div class="split-heading"><p class="section-label">05 / ABOUT</p><h2 id="about-title">How I work</h2></div>
       <div class="about-content"><p>The legal-search study changed how I evaluate models. I check how questions were written, whether the answer is in the source, and which failures a headline score hides. In data pipelines, I look for the same kind of quiet error: a run can succeed while its output is wrong.</p><p class="tools-line"><strong>Tools</strong> Python · SQL · PySpark · scikit-learn · FAISS · PostgreSQL</p><div class="about-links"><a class="inline-link" href="https://github.com/rameezshafat" target="_blank" rel="noopener noreferrer"><svg class="icon icon-leading" aria-hidden="true"><use href="assets/icons.svg#github"/></svg>GitHub <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a><a class="inline-link" href="https://ie.linkedin.com/in/rameezshafat" target="_blank" rel="noopener noreferrer"><svg class="icon icon-leading" aria-hidden="true"><use href="assets/icons.svg#linkedin"/></svg>LinkedIn <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div></div>
     </div></section>
 
-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><p class="section-label">05 / CONTACT</p><h2 id="contact-title">Get in touch</h2><p>For AI engineering, retrieval, or data infrastructure roles, email me directly.</p><a class="button button-primary" href="mailto:rameezshafatwani@gmail.com?subject=Portfolio%20enquiry">rameezshafatwani@gmail.com <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#mail"/></svg></a></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><p class="section-label">06 / CONTACT</p><h2 id="contact-title">Get in touch</h2><p>For AI engineering, retrieval, or data infrastructure roles, email me directly.</p><a class="button button-primary" href="mailto:rameezshafatwani@gmail.com?subject=Portfolio%20enquiry">rameezshafatwani@gmail.com <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#mail"/></svg></a></div></section>
   </main>
   <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Rameez Shafat Wani</span><span>Dublin, Ireland</span><a href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up"/></svg></a></div></footer>
 </body>

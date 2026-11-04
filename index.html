@@ -14,15 +14,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="styles.css?v=20261104">
+  <script defer src="script.js?v=20261104"></script>
 </head>
 <body>
-  <div id="top" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="wordmark" href="#top" aria-label="Rameez Shafat Wani, home">Rameez Shafat <span>Wani</span><span class="wordmark-dot">.</span></a>
+      <a class="wordmark intro-link" href="#intro" aria-label="Rameez Shafat Wani, back to intro">Rameez Shafat <span>Wani</span><span class="wordmark-dot">.</span></a>
       <nav class="nav" id="primary-nav" aria-label="Main navigation">
         <a href="#projects">Projects</a><a href="#now">Now</a><a href="#experience">Experience</a><a href="#research">Research</a>
         <a class="nav-contact" href="#contact">Contact <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a>
@@ -34,7 +33,7 @@
     </div>
   </header>
   <main id="main">
-    <section class="hero container" aria-labelledby="hero-title">
+    <section class="hero container" id="intro" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ENGINEER <span class="eyebrow-divider">/</span> DUBLIN, IRELAND</p>
         <h1 id="hero-title">Building reliable <span>data &amp; machine learning systems.</span></h1>
@@ -117,6 +116,6 @@
 
     <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><p class="section-label">06 / CONTACT</p><h2 id="contact-title">Let’s build something dependable.</h2><p>I’m interested in data engineering, machine learning, and systems-focused roles. Email me to connect.</p><a class="button button-primary" href="mailto:rameezshafatwani@gmail.com?subject=Portfolio%20enquiry">rameezshafatwani@gmail.com <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#mail"/></svg></a></div></section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Rameez Shafat Wani</span><span>Dublin, Ireland</span><a href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up"/></svg></a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Rameez Shafat Wani</span><span>Dublin, Ireland</span><a class="intro-link" href="#intro"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4-5 5 5 5M4 9h10a6 6 0 0 1 6 6v5"/></svg> Back to intro</a></div></footer>
 </body>
 </html>

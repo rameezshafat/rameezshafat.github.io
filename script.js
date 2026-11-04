@@ -28,3 +28,9 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
 }));
 
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+document.querySelectorAll('.intro-link').forEach(link => link.addEventListener('click', event => {
+  event.preventDefault();
+  history.replaceState(null, '', '#intro');
+  window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+}));
